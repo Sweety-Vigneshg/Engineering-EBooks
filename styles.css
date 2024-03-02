@@ -1,0 +1,335 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 6px 0;
+}
+
+header {
+  background-color: #32a852;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #32a852;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero button {
+  background-color: #fff;
+  color: #32a852;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.regulation {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.regulation-buttons a {
+  background-color: #32a852;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #32a852;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+}
+.regulation-heading {
+  text-align: center;
+}
+
+.regulation-buttons {
+  text-align: center;
+}
+
+.regulation-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #32a852;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.library-intro {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2px 0;
+}
+
+header {
+  background-color: #32a852;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #32a852;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero button {
+  background-color: #fff;
+  color: #32a852;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.regulation {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.regulation-buttons a {
+  background-color: #32a852;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* Existing styles */
+
+.regulation-buttons {
+  text-align: center;
+}
+
+.regulation-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #32a852;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.regulation-buttons button:hover {
+  background-color: #14e437;
+}
+
+/* Additional styles for responsiveness */
+
+@media (max-width: 768px) {
+  .regulation-buttons a {
+      display: block;
+      margin: 10px auto;
+  }
+}
+
+
+footer {
+  background-color: #32a852;
+  color: #fff;
+  text-align: center;
+  padding: 0.5px 0;
+  position: none;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+  
+  header nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .hero {
+      padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      width: 95%;
+  }
+}
+
+/* Regulation Page */
+
+/* Styles for 2017 Regulation Department page */
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.department-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.department-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #32a852;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.department-buttons button:hover {
+  background-color: #14e437;
+}
+
+
+/* Styles for 2021 Regulation Department page */
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.department-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.department-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #32a852;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.department-buttons button:hover {
+  background-color: #14e437;
+}
+
+/* about page image style */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Centers vertically within the viewport */
+}
+.center img {
+  max-width: 100%; /* Ensures the image does not exceed the container's width */
+  max-height: 100%; /* Ensures the image does not exceed the container's height */
+}
+
+/* Contact us page style*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+}
+form {
+  margin-top: 20px;
+}
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

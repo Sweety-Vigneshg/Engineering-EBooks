@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEC EBOOKS</title>
+    <link rel="icon" type="image/x-icon" href="TEC_logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="tec_big_logo.png" alt="College Logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.trichyengg.ac.in/">Our Website</a></li>
+                    <li><a href="https://i-am-lazy-boy.blogspot.com/">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+<body>
+    <iframe id="pdfViewer" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+    
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script>
+        function loadPDF(fileId) {
+            gapi.load('client', function () {
+                gapi.client.init({
+                    'apiKey': 'YOUR_GOOGLE_API_KEY',
+                    'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest']
+                }).then(function () {
+                    const pdfViewer = document.getElementById('pdfViewer');
+                    pdfViewer.src = `https://drive.google.com/file/d/${fileId}/preview`;
+                }, function (error) {
+                    console.error('Error initializing Google Drive API:', error);
+                });
+            });
+        }
+
+        window.onload = function() {
+        loadPDF('1HVjZYrejLqfXxZWGpPjDNJgjSIwz8gSe');
+    };
+
+        // Call loadPDF function with the fileId of the PDF you want to display
+        // Example: loadPDF('YOUR_PDF_FILE_ID');
+    </script>
+
+    <script src="script.js"></script>
+
+ <!--   <footer>
+        <div class="container">
+            <p>&copy; 2024 Vignesh G. All rights reserved.</p>
+        </div>
+    </footer>
+-->
+
+</body>
+</html>
